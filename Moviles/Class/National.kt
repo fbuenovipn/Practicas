@@ -1,6 +1,6 @@
 package org.example.Class
 
-class National(override val city:String):Travel() {
+open class National(override val city:String):Travel() {
     override val country = "Mexico"
 
     protected val fees = mapOf(

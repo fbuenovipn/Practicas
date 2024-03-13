@@ -2,8 +2,14 @@ package org.example.Class
 
 class Phone {
     //Atributos
+    init{
+        println("Telefono Creado")
+    }
     var isOn = false
     lateinit var model:String
+    companion object Factory {
+        fun create(): Phone = Phone()
+    }
     //Métodos
     fun turnOn(){
         isOn = true

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">P_Movil_Viernes</string>
+    <string name="bienvenida">Hola UPIICSA</string>
+    <string name="accept_button">Aceptar</string>
+    <string name="button_clicked">Haz dado click al botón!</string>
+    <string name="add_text">Ingresa un texto</string>
+    <string name="phone">Teléfono</string>
+</resources>
